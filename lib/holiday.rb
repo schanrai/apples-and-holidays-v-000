@@ -84,3 +84,6 @@ def all_holidays_with_bbq(holiday_hash)
       end
     end.flatten.compact
   end
+
+
+  #you could also assign an empty array bbq_list, and add supplies to it only if it includes BBQ, then return the array of supplies 
